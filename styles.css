@@ -94,9 +94,16 @@ body {
     height: 100%;
     margin: auto;
 } */
-
 .main-div {
+    margin: 0 auto;
+}
+
+.main-div-logo{
     /* padding-top: 20px; */
+    
+}
+.main-div-buttons {
+    margin: 0 auto;
     display: inline-block;
 }
 
@@ -117,6 +124,9 @@ body {
 .main-div-btn:hover {
     border: 2px solid white;
     border-radius: 20px;
+}
+.main-logo {
+    display: inline-block;
 }
 
 .main-logo a {
@@ -215,7 +225,7 @@ body {
     top: 94px;
 }
 
-.brad .partner-img::bebore {
+.brad .partner-img::before {
     background-image: url(./img/brad-icon.png);
     background-color: var(--main-color);
 }
@@ -264,7 +274,7 @@ body {
     color: white;
 }
 @media screen and (max-width: 767px){
-    .main-div .main-logo {
+    .m {
         display: none;
     }
 }
@@ -281,8 +291,11 @@ body {
         visibility: visible;
     }
     
-    .logo .main-logo {
+    .logo {
         display: none;
+    }
+    .main-div-buttons{
+        margin: 0;
     }
 
     
