@@ -175,12 +175,12 @@ body {
 
 .partner-list-item {
     padding-top: 20px;
-    position: relative;
-    width: 230px;
     margin: 0 auto;
 }
 
 .partner-img {
+    width: 200px;
+    position: relative;
     margin: 0 auto;
 }
 
@@ -202,8 +202,8 @@ body {
     border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    left: 142px;
-    top: 110px;
+    left: 130px;
+    top: 94px;
 }
 
 .brad .partner-img::before {
@@ -263,17 +263,7 @@ body {
     /* .container {
         width: 670px;
     } */
-    .main-headers{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }
-    .main-div{
-        /* padding-top: 34px; */
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-    }
+   
     
     .top-div-title {
         font-size: 52px;
@@ -300,18 +290,12 @@ body {
         width: 500px;
     }
     .partner-list{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         padding: 0;
         margin: 0 auto;
     }
     .partner-list-item{
         padding-top: 26px;
-    }
-    .partner-img::before{
-        left: 142px;
-        top: 118px;
+        margin: 0;
     }
     .heather{
         order: 2;
@@ -348,11 +332,7 @@ body {
 
     .partner-list {
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
     }
-
     .partner-list-item {
         padding-top: 30px;
     }
