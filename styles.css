@@ -129,7 +129,8 @@ body {
     display: inline-block;
 }
 
-.main-logo a {
+.main-logo a,
+.main-logo {
     text-transform: uppercase;
     color: white;
     font-size: 20px;
