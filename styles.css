@@ -288,7 +288,7 @@ body {
     } */
    
     .main-div .main-logo {
-        visibility: visible;
+        display: none;
     }
     
     .logo {
